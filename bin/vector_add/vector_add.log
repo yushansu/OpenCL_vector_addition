@@ -1,0 +1,8 @@
+Compiler Command: aoc -march=emulator device/vector_add.cl -o bin/vector_add.aocx --board s5_ref
+/memex/yushans/vector_add/device/vector_add.cl:23:48: warning: declaring kernel argument with no 'restrict' may lead to low kernel performance
+__kernel void vector_add(__global const float *x, 
+                                               ^
+/memex/yushans/vector_add/device/vector_add.cl:24:48: warning: declaring kernel argument with no 'restrict' may lead to low kernel performance
+                         __global const float *y, 
+                                               ^
+2 warnings generated.
